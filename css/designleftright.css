@@ -1,0 +1,58 @@
+.content {
+  color: black;
+  font-size: 15px;
+  /*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+  /* margin: top right bottom left*/
+  margin: 150px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.contentpadding {
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+.leftcontent {
+  /*float: left;*/ /*problem for footer*/
+  width: 100%;
+  display: block;
+}
+
+.rightcontent {
+  /*float: right;*/ /*problem for footer*/
+  width: 100%;
+  display: block;
+}
+
+.detail {
+  margin-left: 1.67em;
+  margin-right: 1.67em;
+  font-size: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 10px 0;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+
+body {
+  box-sizing: inherit;
+}
+
+.indeximg {
+  min-height: 300px;
+  min-width: 400px;
+  width: 50%;
+  padding: 20px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
